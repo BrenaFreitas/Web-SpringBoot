@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Voluntario</title>
+
+    <link rel="shortcut icon" href="../img/ellp_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/registrar.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="../img/ellp_logo.png" class="logo" id="logo">
+
+
+        <form class="form-registrar-voluntario">
+
+            <h2>Registrar Voluntário</h2>
+
+            <label for="nome" ><b>Nome: </b></label>
+
+            <input type="text" name="nome" id="nome" class="usuario nome"><br>
+
+            <label for="ra"><b>Ra: </b></label>
+            
+            <input type="text" name="ra" id="ra"  class="usuario ra"><br>
+
+            <label for="email"><b>Email: </b></label>
+            
+            <input type="text" name="email" id="email"  class="usuario email"><br>
+
+            <label for="telefone"><b>Telefone: </b></label>
+            
+            <input type="text" name="telefone" id="telefone" class="usuario telefone"><br>
+
+            <label for="curso"><b>Curso</b></label>
+
+            <select id="curso" name="curso" name="curso" class="curso">
+
+                <option value="Eng. Software">Eng. Software</option>
+
+                <option value="Eng. Computação">Eng. Computação</option>
+
+                <option value="Eng. Controle Automação">Eng. Controle Automação</option>
+
+                <option value="Eng. Elétrica">Eng. Elétrica</option>
+
+                <option value="Eng. Eletrônica">Eng. Eletrônica</option>
+
+                <option value="Eng. Mecânica">Eng. Mecânica</option>
+
+            </select><br>
+
+            <label for="periodo"><b>Periodo</b></label>
+
+            <select id="periodo" name="periodo" class="periodo">
+
+                <option value="1">1</option>
+
+                <option value="2"> 2</option>
+
+                <option value="3"> 3</option>
+
+                <option value="4">4</option>
+
+                <option value="5">5</option>
+
+                <option value="6"> 6</option>
+
+                <option value="7">7</option>
+
+                <option value="8">8</option>
+
+                <option value="9"> 9</option>
+
+                <option value="10">10</option>
+
+            </select><br>
+
+
+            <label for="departamento"><b>Departamento</b></label> 
+            
+            <select name="departamento" id="departamento" class="departamento">
+
+                <option value="Gestão de Pessoas"> 1 - Gestão de Pessoas</option>
+
+                <option value="Conteúdo">2 - Conteúdo</option>
+
+                <option value="Marketing">3 - Marketing</option>
+
+                <option value="Instrutores">4 - Instrutores</option>
+
+            </select><br>
+
+            <label for="horas_voluntariadas" ><b>Horas Voluntariadas: </b></label>
+
+            <input type="number" name="horas_voluntariadas" id="horas_voluntariadas" class="usuario horas_voluntariadas"><br>
+
+            <button class="botao-entrar" type="submit">Registrar</button>
+
+
+    
+        </form>
+
+    </div>
+
+    <div class="modal" id="customModal">
+        
+        <p>Registrado com sucesso!</p>
+        
+        <button onclick="closeModal()">Fechar</button>
+   
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+
+    <script src="../js/voluntario.js"></script>
+</body>
+</html>

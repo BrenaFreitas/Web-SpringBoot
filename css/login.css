@@ -1,0 +1,162 @@
+
+body{
+
+    background-color: #1E90FF;
+
+}
+
+.logo{
+    width: 100px;
+    
+    height: 100px;
+   
+    margin: auto;
+    
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+form{
+
+    background-color: white;
+
+    margin: auto;
+
+    margin-top: 10px;
+
+    width: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 110vh;
+
+    border-radius: 10px;
+}
+
+.form-oficina{
+
+    width: 100vh;
+
+    height: 95vh;
+
+}
+
+.form-entrar{
+
+    width: 60vh;
+
+    height: 70vh;
+
+}
+
+p{
+
+    color: black;
+}
+
+
+.usuario{
+
+    padding: 10px;
+
+    margin: 0px 50px;
+
+    border-radius: 10px;
+
+    border: 1px #1E90FF solid;
+
+}
+
+h2{
+
+    text-align: center;
+
+    color: #1E90FF;
+
+}
+
+label{
+
+    margin-left: 55px;
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+
+}
+
+select{
+
+    margin-top: 10px;
+
+    margin: 0px 50px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    border: 1px #1E90FF solid;
+
+}
+
+.botao-entrar{
+
+    border-radius: 20px;
+
+    margin: 0px 100px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    background-color: #1E90FF;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+.login{
+
+    margin-top: 50px;
+}
+
+.botao-entrar:hover{
+
+    background-color: aliceblue;
+
+    color: #1E90FF;
+
+    border: 2px solid #1E90FF;
+}
+
+.registrar-login{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+a {
+   
+    text-decoration: none;
+   
+    padding: 10px 20px;
+   
+    background-color: #007bff;
+   
+    color: #ffffff;
+   
+    border-radius: 5px;
+}
+
+

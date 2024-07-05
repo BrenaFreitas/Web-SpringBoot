@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Departamento</title>
+    <link rel="stylesheet" href="../css/registrar.css">
+</head>
+<body>
+
+    <img src="../img/ellp_logo.png" class="logo" id="logo">
+
+    <form id="form-departamento">
+
+        <h2>Registrar Departamento</h2>
+
+        <label for="nome">Nome do Departamento</label>
+
+        <input type="text" id="nome"class="usuario nome">
+
+        <label for="responsavel">Responsavel</label>
+
+        <input type="text" id="responsavel" class="usuario responsavel">
+
+        <button class="botao-entrar" type="submit"> Registrar</button>
+
+
+    </form>
+
+    
+    <div class="modal" id="customModal">
+        
+        <p>Registrado com sucesso!</p>
+        
+        <button onclick="closeModal()">Fechar</button>
+   
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+
+    <script src="../js/departamento.js"></script>
+    
+</body>
+</html>

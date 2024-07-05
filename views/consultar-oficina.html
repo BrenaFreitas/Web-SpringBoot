@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consultar Oficina</title>
+
+    <link rel="stylesheet" href="../css/consultar.css">
+
+    <link rel="shortcut icon" href="../img/ellp_logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <img src="../img/ellp_logo.png" class="logo" id="logo">
+
+
+    <div id="results"></div>
+
+    <div class="table-container">
+        
+        <table>
+            
+            <tr>
+                
+                <th>ID</th>
+                
+                <th>Nome</th>
+                
+                <th>Quantidade de participantes</th>
+                
+                <th>Data</th>
+                
+                <th>Horário Início</th>
+
+                <th>Horário Fim</th>
+ 
+                <th>Ativo</th>
+
+            </tr>
+       
+       
+        </table>
+        
+    </div>
+
+    <br>
+    <form class="consultar">
+
+        <input type="text" id="searchInput" placeholder="Digite sua consulta">
+
+    </form>
+
+    <div class="button-container">
+    
+        <button type="button" class="botao-inserirbusca" onclick="consultarOficinaPorNome()">Consultar</button>
+    
+        <button type="button" class="botao-inserirbusca" onclick="desativarOficinaPorId()">Desativar</button>
+    
+        <button type="button" class="botao-inserirbusca" onclick="deletarOficinaPorNome()">Deletar</button>
+        
+    </div>
+
+    <div id="oficinaDetails"></div>
+
+
+    <script src="../js/oficina.js"></script>
+    
+</body>
+
+</html>
